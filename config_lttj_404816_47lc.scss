@@ -1,0 +1,17 @@
+2,5,89,22,81,28,26,41,34,95,63,27,95,85,27,20,49,73,89,48,37,90,76,31,42,51,32,50 + 58,86,69,74,31,61,76,32,28,46,24,21,17,9,22,12,66,6,88,1,16,66,67,47,26,54,65,5,27,41
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+66 + 34,60,90,11,15,37,20,48,61,3,86,68,60,84,33,61,73,71,64,20,28,70,96,92,32,10,71,18,97,64,61,88,9,79,44,87,72,79,59,12,50,4,96,96,11,83
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+false - 50
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+false * orange
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+orange
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
