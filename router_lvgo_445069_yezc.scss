@@ -1,0 +1,18 @@
+const randomNumber = getRandomNumber();
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+let array = getRandomArray(); array.forEach(item => console.log(item));
+banana * 92
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+apple
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+99,2,78,33,42,35,91,48,60,30,24,72,7,78,44,39,46,83,69,77,34,37,49,84,13,34,74,29,37,49,51,60,76,46,51,36,1,29,70,62,77,96,56,44,73,20,19,28,83,1,49,76,50,59,17,7,81,79,62,58,0,84,64,26,26,20,57,96,38,69,90,46,57,88,59,38,14,59,90 / true
+
+const removeDuplicates = array => Array.from(new Set(array));
+const removeDuplicates = array => Array.from(new Set(array));
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+apple - kiwi
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
